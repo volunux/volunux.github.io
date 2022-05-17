@@ -1,0 +1,154 @@
+body {
+  margin-top : 10px;
+  padding : 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato';
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.375rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1.125rem;
+}
+
+.description, .contact-us {
+  margin-top : 10px;
+}
+
+.description, .contact-us {
+  font-size : 1rem;
+}
+
+.description p, .contact-us p {
+  line-height: 2em;
+  font-size: 1.1rem;
+}
+
+.description a {
+  text-decoration: none;
+}
+
+p , li {
+  font-size : 0.8rem;
+  line-height : 1.5em;
+  font-family: 'Zen Maru Gothic';
+}
+
+.navbar-nav a {
+  font-size : 0.8rem;
+}
+
+.page-header, .technologies {
+  margin-top: 25px;
+} 
+
+.page-header h1 {
+
+  font-size : 1.4rem;
+  font-weight: normal;
+  font-family: 'Oswald';
+}
+
+.page-header h1 img, .technologies h2 img, .navbar a img {
+  vertical-align: bottom;
+}
+
+.technologies h2, .services h2 {
+
+  font-size : 1.3rem;
+  font-weight: normal;
+  font-family: 'Oswald'
+}
+
+.technologies .item p {
+  line-height: 1.5em;
+  font-size: 0.9rem;
+  font-weight: normal;
+  font-family: 'Roboto Flex'
+}
+
+.technologies h3, .services h3 {
+  font-size : 1rem;
+  font-weight: bolder;
+  margin: 15px 0px 15px 0px;
+  font-family: 'Lato';
+}
+
+.services {
+  margin-bottom: 20px;
+}
+
+.services .card {
+  border: 0;
+}
+
+.services .service-item img {
+  vertical-align: middle;
+}
+
+.card-text {
+  font-family: 'Roboto Flex';
+}
+
+
+.item img, .services .card img {
+  width : 50px;
+  height : 50px;
+}
+
+.technologies .item, .services .service-item {
+  margin-top: 30px;
+  padding: 0.8rem;
+  transition-duration: 0.1s;
+  border: 1px solid #fff;
+}
+
+.technologies .item:hover, .services .service-item:hover {
+  border: 1px solid #f5f5f5;
+  border-radius: 4px;
+  background-color: #fbfbfb;
+}
+
+.technologies .item a {
+  border-radius: 0;
+  font-size: 0.7rem;
+  font-weight: normal;
+}
+
+.privacy-terms {
+  padding: 10px;
+}
+
+.privacy-terms p {
+  font-family: 'Roboto';
+}
+
+footer {
+  border-top: 1px solid lightgray;
+  margin: 20px 0px;
+  padding: 5px;
+  font-size : 0.8rem;
+}
+
+.footer-copyright a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 580px) {
+
+  .navbar-nav a.nav-link {
+    border-bottom: 1px solid lightgray;
+  }
+}
