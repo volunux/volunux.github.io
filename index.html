@@ -98,37 +98,32 @@ technologies:
     title: JavaScript
     url: https://tc39.es/ecma262/
     thumb: ./images/javascript.png
+  - jekyll:
+    title: Jekyll
+    url: https://jekyllrb.com/
+    thumb: ./images/jekyll.png
 services:
-  - software:
-    title: Enterprise Application Development
-    content: These are applications designed to integrate computer systems that run all phases of an enterprise's operations to ease integration, collaboration and monitoring.
-      Your application can have a custom or specific requirement and we can help you achieve it.
-    thumb: ./images/service/software.png
   - internet:
     title: Web Application Development
-    content: It allows you to have application that is data driven and can be a management system, payment portal, ecommerce store, reservation system, helpdesk support and more.
-      We can help you develop web applications to serve your customers or organization operations.
-    thumb: ./images/service/internet.png
+    content: It is a website that is dynamic and can collect user data through forms. It is data driven and can have features such as a payment portal, ecommerce store, reservation system, helpdesk support and more.
+      I develop web applications to serve your customers needs or organizational requirement.
+    thumb: ./images/service/software.png
   - technical:
     title: Software and Desktop Troubleshooting
-    content: Are you having problems with trying to install a program or applications in your Windows Operating System and Computer?
-      We can help you fix it by diagnosing and finding out the source of problem and use our experience of software and desktop setup to help resolve the problem.
+    content: Are you having problems with trying to install, configure and setup a program or applications in your Computer or Laptop?
+      I diagnose and fix these kind of problems using my experience in software and desktop troubleshooting.
     thumb: ./images/service/technical-support.png
-  - consultancy:
-    title: Software and Web Consultancy
-    content: You want to configure your computer's environment with softwares and looking for a fit?
-      We can give you advices on many software using our experience in installation, testing and usage and then help get your computer ready with softwares for use and ease of operations.
-    thumb: ./images/service/consulting.png
 ---
 
     <header class="page-header container-fluid">
       <h1 class ="display-5 text-center">Me & <img src ="./images/big-v.png" alt ="Volunux"/></h1>
       <div class="description">
-        <p><b>I am Yusuf</b>, a graduate of Information Science; my Alma mater is Federal University of Technology, Minna, Nigeria. I specialize in web application development using diverse technologies. I am currently performing the National Youth Corp Service and serving in Kaduna State.
-        You can find me on Github <a href="https://www.github.com/volunux">@Volunux</a>. </p>
-        <p>Volunux aims to provide technology solutions to individuals, businesses, corporations and states ranging from small to large using engineering principles and methods.
-          We believe in architecting and developing applications that serve both the needs of the user and fulfill the culture, principles, functional and non-functional requirements that make up a good software which should be extensible, reliable, maintainable and usable.
-        At Volunux, The art of building, innovation, problem solving, creativity and <strong>Engineering</strong> is our culture and is embedded in the way we work daily.</p>
+        <p>Hello,</p>
+        <p><b>I am Yusuf Musa</b>, a graduate of Information Technology; my Alma mater is Federal University of Technology, Minna, Nigeria. I specialize in web application development and do backend or frontend programming using technologies like Jakarta or Spring in Java and Express.js or Angular in TypeScript. You can find me on Github <a href="https://www.github.com/volunux">@Volunux</a>. </p>
+        <p> I work at Niteco Cyber Links (an IT co.), Minna as a computer instructor and assistant. You can look at my <a href="./resume.pdf">Resume</a>, my personal projects are there. </p>
+        <p><b>Volunux</b> provides technology or digital solutions to individuals, businesses, corporations using software engineering techniques.
+          The culture is to architect and develop applications that meets the requirement of the user. Also, it emphasizes the principles (functional and non-functional requirements) that make up a good software which should be extensible, reliable, maintainable and usable. I advocate for the culture of critical thinking, innovation, creativity and <strong>Engineering</strong>.</p>
+        <p>I am currently performing the National Youth Corp Service (NYSC) in Kaduna State, Nigeria.</p>
       </div>
     </header>
 
@@ -142,7 +137,7 @@ services:
           <div class="card service-item text-center">
             <div class="row g-0">
               <div class="col-md-2">
-                <img src="{{item.thumb}}" class="img-fluid">
+                <img src="{{item.thumb}}" loading="lazy" class="img-fluid">
               </div>
               <div class="col-md-10">
                 <div class="card-body">
@@ -165,7 +160,7 @@ services:
 
         {% for item in page.technologies %}
           <div class="col-lg-3 col-md-4 col-sm-6 item text-center">
-            <img src="{{item.thumb}}" class="img-fluid">
+            <img src="{{item.thumb}}" loading="lazy" class="img-fluid">
             <h3 class="feature-title">{{item.title}}</h3>
             <a rel="nofollow" href ="{{item.url}}" class="btn btn-primary learn-more">Learn More</a>
           </div>
